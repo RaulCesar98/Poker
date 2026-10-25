@@ -1,0 +1,17 @@
+{
+  "name": "poker-texas-holdem",
+  "version": "1.0.0",
+  "description": "Texas Hold'em online multiplayer (até 8 jogadores) com fichas, sons e animações",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/sim.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
